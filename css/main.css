@@ -3096,6 +3096,7 @@ html.no-csstransitions .hero-content {
   border-color: #21070a;
   background-color: #21070a;
   padding: 0 4rem;
+  border: 2px solid whitesmoke;
 }
 
 .s-footer .btn--footer:hover,
