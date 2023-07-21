@@ -2466,6 +2466,8 @@ html.no-csstransitions .hero-content {
 .s-about .subhead {
   color: #fb8b23;
   margin-bottom: 4rem;
+  font-size: large;
+  text-align: center;
 }
 
 .s-about .lead {
@@ -2479,6 +2481,7 @@ html.no-csstransitions .hero-content {
   margin-right: 0;
   background-color: #21070a;
   border-color: #21070a;
+  border: 2px solid whitesmoke;
 }
 
 /* ------------------------------------------------------------------- 
