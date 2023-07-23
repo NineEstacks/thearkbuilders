@@ -1778,7 +1778,7 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## main navigation
  * ------------------------------------------------------------------- */
-.header-nav-wrap {
+ .header-nav-wrap {
   z-index: 101;
   position: absolute;
   right: 4.4rem;
@@ -1788,7 +1788,7 @@ input::-moz-focus-inner {
 .header-nav {
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 4.8rem;
   text-transform: uppercase;
   letter-spacing: .35rem;
@@ -1808,6 +1808,7 @@ input::-moz-focus-inner {
   display: inline-block;
   margin: 0 .8rem;
 }
+
 
 /* ------------------------------------------------------------------- 
  * ## mobile menu toggle
@@ -2765,18 +2766,19 @@ html.no-csstransitions .hero-content {
   padding-bottom: 4.8rem;
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .series-content__buttons .btn {
   background-color: #000000;
   border-color: #000000;
+  border: 2px solid whitesmoke;
+
 }
 
 .series-content__buttons .btn:hover,
 .series-content__buttons .btn:focus {
   background-color: #ffffff;
-  border-color: #ffffff;
+  border: 2px solid orange;
   color: #000000;
 }
 
@@ -3400,18 +3402,11 @@ html.no-csstransitions .hero-content {
   margin-top: .6rem;
 }
 
-.church-staff__picture {
-  -webkit-flex: 0 0 8rem;
-  -ms-flex: 0 0 8rem;
-  flex: 0 0 8rem;
-  max-width: 8rem;
-  margin-right: 2rem;
-}
-
 .church-staff__picture img {
-  width: 8rem;
-  height: 8rem;
+  width: 200px;
+  margin-right: 2rem;
   border-radius: 50%;
+  border: 3px solid #444;
 }
 
 /* ------------------------------------------------------------------- 
